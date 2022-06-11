@@ -1,6 +1,6 @@
 # World Weather Analysis
 ## Overview
-In this project, a random set of latitudes and longitudes were generated using the Numpy and random module. Using the citiPy Module, more than 600 cities near the random latitudes and longitudes were obtained. The OpenWeather map API was used to request for the current weather data of each unique city in JSON format.The following data was then retrieved from the JSON file: 
+In this project, a random set of latitudes and longitudes were generated using the Numpy and random module. Using the citiPy Module, more than 600 cities near the random latitudes and longitudes were obtained. The OpenWeatherMap API was used to request for the current weather data of each unique city in JSON format.The following data was then retrieved from the JSON file: 
 * City
 * Country
 * Date
@@ -24,4 +24,8 @@ Input statements from customers were used to filter the data for their weather p
 
 
 ## Travel Itinerary Map 
-From the list of potential travel destinations, a sample itinerary was created that shows the route between four cities in Canada. Finally, using the Google Maps Directions API, a travel route was created between the four cities, as well as, a marker layer map.
+From the list of potential travel destinations, a sample itinerary was created that shows the route between four cities in Canada. 
+![image2](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+Finally, using the Google Maps Directions API, a marker layer map with a pop-up marker for each city on the itinerary was created.
+![image3](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
