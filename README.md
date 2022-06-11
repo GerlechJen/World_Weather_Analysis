@@ -22,6 +22,8 @@ Continuing further with the project, a set of 2,000 random latitudes and longitu
 ## Customer Travel Destination Map
 Input statements from customers were used to filter the data for their weather preferences. With that information, potential travel destinations and nearby hotels were identified and shown on a marker layer map with pop-up markers.
 
+![image1](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+
 
 ## Travel Itinerary Map 
 From the list of potential travel destinations, a sample itinerary was created that shows the route between four cities in Canada. 
