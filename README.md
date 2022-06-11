@@ -25,7 +25,9 @@ Input statements from customers were used to filter the data for their weather p
 
 ## Travel Itinerary Map 
 From the list of potential travel destinations, a sample itinerary was created that shows the route between four cities in Canada. 
+
 ![image2](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 Finally, using the Google Maps Directions API, a marker layer map with a pop-up marker for each city on the itinerary was created.
+
 ![image3](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
