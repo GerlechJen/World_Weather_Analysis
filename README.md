@@ -20,45 +20,8 @@ A series of heatmaps were also created using Google Maps and Places API for all 
 Continuing further with the project, a set of 2,000 random latitudes and longitudes were generated, the nearest cities retrieved, and an API call performed with the OpenWeatherMap. In addition to the city weather data already gathered, the current weather description for each city was also retreved and included in the data. A new DataFrame containing the updated weather data was then created for further analysis.
 
 ## Customer Travel Destination Map
-Input statements from customers were used to filter the data for their weather preferences. With that information, potential travel destinations and nearby hotels were identified. From the list of potential travel destinations, four cities in Canada were chosen to create a travel itinerary. Finally, using the Google Maps Directions API, a travel route was created between the four cities, as well as, a marker layer map.
+Input statements from customers were used to filter the data for their weather preferences. With that information, potential travel destinations and nearby hotels were identified and shown on a marker layer map with pop-up markers.
 
 
-
-## Vacation Search
-Based on traveler’s weather preferences, travelers can identify potential travel destinations and nearby hotels. The map showcases destinations using pop-up markers on a marker layer-map.
-
-### Sample Travel Destinations
-
-![WeatherPy_vacation_map](https://github.com/cmmgw/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
-
-## Vacation Itinerary 
-Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Kazakhstan.
-
-![WeatherPy_travel_map](https://github.com/cmmgw/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
-
-## Statistical Analysis
-Global city data was plotted, and linear regression was used to find the relationship between the following variables: 
-
-* Latitude and Maximum Temperature
-* Latitude and Humidity
-* Latitude and Cloudiness
-* Latitude and Wind Speed
-
-
-
-and an API call was made on current weather data for the nearest corresponding cities.
-From the API callwe retrieved:
-Latitudes
-Longitudes
-Maximum temperature
-Percent humidity
-Percent cloudiness
-Wind speed
-Current Weather description
-The data was plotted using google maps 
-using Jupyter Notebook, Pandas Library, CityPy, JSON Traversals, APIs and Python Requests, 
-
-
-weather data was used to collect data from over 600 cities around the world. collected from a webiste using API 
-
-to help customers find their ideal hotel anywhere in the world 
+## Travel Itinerary Map 
+From the list of potential travel destinations, a sample itinerary was created that shows the route between four cities in Canada. Finally, using the Google Maps Directions API, a travel route was created between the four cities, as well as, a marker layer map.
