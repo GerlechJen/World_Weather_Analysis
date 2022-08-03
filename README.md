@@ -33,3 +33,10 @@ From the list of potential travel destinations, a sample itinerary was created t
 Finally, using the Google Maps Directions API, a marker layer map with a pop-up marker for each city on the itinerary was created.
 
 ![image3](https://github.com/GerlechJen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
